@@ -1,0 +1,15 @@
+options:
+  increment-version: false
+source:
+  dir: bnf/
+  files:
+  - bnf_files_2016.csv
+  - bnf_files_2017.csv
+  - bnf_files__2017.csv
+  - bnf_files_2018.csv
+  route: stage
+target:
+  dir: bnf/
+  file: bnf_merged_$VERSION$.csv
+  route: stage
+version: 1.0

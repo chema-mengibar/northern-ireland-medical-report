@@ -1,0 +1,18 @@
+options:
+  increment-version: false
+source:
+  dir: consultas-medicas/
+  files_2018:
+    april: gp-practice-reference-file---april-2018.csv
+    january: gp-practice-reference-file---january-2018.csv
+    july: gp-practice-reference-file---july-2018.csv
+  files_january:
+    y2016: gp-practice-reference-file---january-2016.csv
+    y2017: gp-practice-reference-file---january-2017.csv
+    y2018: gp-practice-reference-file---january-2018.csv
+  route: universe
+target:
+  dir: postalcode/
+  file: postalcode$VERSION$.csv
+  route: stage
+version: 1.0

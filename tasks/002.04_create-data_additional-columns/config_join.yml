@@ -1,0 +1,17 @@
+options:
+  increment-version: false
+params:
+  column: VTM_NM
+source:
+  dir: vtm/
+  files:
+  - vtm_files_2016.csv
+  - vtm_files_2017.csv
+  - vtm_files__2017.csv
+  - vtm_files_2018.csv
+  route: stage
+target:
+  dir: vtm/
+  file: vtm_merged_$VERSION$.csv
+  route: stage
+version: 1.0

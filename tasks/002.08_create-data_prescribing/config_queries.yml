@@ -1,0 +1,18 @@
+options:
+  increment-version: false
+params:
+  tables:
+  - A_LCG
+  - A_POSTCODE
+  - D_AMP_NM
+  - D_BNF
+  - D_COST
+  - D_PRACTICE
+  - D_TIME
+  - D_VMP_NM
+  - D_VTM_NM
+target:
+  dir: prescribing/
+  file: table--$NAME$.csv
+  route: stage
+version: 1.0

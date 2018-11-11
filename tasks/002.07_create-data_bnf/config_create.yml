@@ -1,0 +1,48 @@
+options:
+  increment-version: true
+params:
+  targetGroupFiles: files_2018
+source:
+  dir: prescripciones/
+  files_2016:
+  - GP Prescribing - January 2016 (csv).csv
+  - GP Prescribing - February 2016 (csv).csv
+  - GP Prescribing - March 2016 (csv).csv
+  - GP Prescribing - April 2016 (csv).csv
+  - GP Prescribing - May 2016 (csv).csv
+  - GP Prescribing - June 2016 (csv).csv
+  - GP Prescribing - July 2016 (csv).csv
+  - GP Prescribing - August 2016 (csv).csv
+  - GP Prescribing - September 2016 (csv).csv
+  - GP Prescribing - October 2016 (csv).csv
+  - GP Prescribing - November 2016 (csv).csv
+  - GP Prescribing - December 2016 (csv).csv
+  files_2017:
+  - GP Prescribing - January 2017 (csv).csv
+  - GP Prescribing - February 2017 (csv).csv
+  - GP Prescribing - March 2017 (csv).csv
+  - GP Prescribing - April 2017 (csv).csv
+  - GP Prescribing - May 2017 (csv).csv
+  - GP Prescribing - June 2017 (csv).csv
+  - GP Prescribing - July 2017 (csv).csv
+  - GP Prescribing - August 2017 (csv).csv
+  - GP Prescribing - September 2017 (csv).csv
+  - GP Prescribing - October 2017 (csv).csv
+  files_2018:
+  - gp-prescribing---january-2018.csv
+  - gp-prescribing---february-2018.csv
+  - gp-prescribing---march-2018.csv
+  - gp-prescribing---april-2018.csv
+  - gp-prescribing---may-2018.csv
+  - gp-prescribing---june-2018.csv
+  - gp-prescribing---july-2018.csv
+  - gp-prescribing---august-2018.csv
+  files__2017:
+  - gp-prescribing---november-2017.csv
+  - gp-prescribing---december-2017.csv
+  route: universe
+target:
+  dir: bnf/
+  file: bnf_$NAME$.csv
+  route: stage
+version: 1.6

@@ -1,0 +1,8 @@
+route: [ROOT_DIR]/data/universe/gp-practices/
+size: 184KB 
+files:
+- gp-practice-reference-file---january-2016.csv
+- gp-practice-reference-file---january-2017.csv
+- gp-practice-reference-file---january-2018.csv
+- gp-practice-reference-file---april-2018.csv
+- gp-practice-reference-file---july-2018.csv

@@ -1,0 +1,4 @@
+route: [ROOT_DIR]/data/universe/bnf/
+size: 22KB
+files:
+- bnf.xlsx

@@ -1,0 +1,15 @@
+options:
+  increment-version: false
+source:
+  dir: cost/
+  files:
+  - cost_files_2016.csv
+  - cost_files_2017.csv
+  - cost_files__2017.csv
+  - cost_files_2018.csv
+  route: stage
+target:
+  dir: cost/
+  file: cost_merged_$VERSION$.csv
+  route: stage
+version: 1.0

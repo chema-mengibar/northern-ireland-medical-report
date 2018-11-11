@@ -1,0 +1,15 @@
+options:
+  increment-version: false
+source:
+  dir: amp/
+  files:
+  - amp_files_2018.csv
+  - amp_files_2016.csv
+  - amp_files_2017.csv
+  - amp_files__2017.csv
+  route: stage
+target:
+  dir: amp/
+  file: amp_merged_$VERSION$.csv
+  route: stage
+version: 1.0

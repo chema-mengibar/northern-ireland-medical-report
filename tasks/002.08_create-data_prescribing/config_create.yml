@@ -1,0 +1,62 @@
+options:
+  increment-version: false
+params:
+  targetGroupFiles: files_2018
+source:
+  prescripciones:
+    dir: prescripciones/
+    files_2016:
+    - GP Prescribing - January 2016 (csv).csv
+    - GP Prescribing - February 2016 (csv).csv
+    - GP Prescribing - March 2016 (csv).csv
+    - GP Prescribing - April 2016 (csv).csv
+    - GP Prescribing - May 2016 (csv).csv
+    - GP Prescribing - June 2016 (csv).csv
+    - GP Prescribing - July 2016 (csv).csv
+    - GP Prescribing - August 2016 (csv).csv
+    - GP Prescribing - September 2016 (csv).csv
+    - GP Prescribing - October 2016 (csv).csv
+    - GP Prescribing - November 2016 (csv).csv
+    - GP Prescribing - December 2016 (csv).csv
+    files_2017:
+    - GP Prescribing - January 2017 (csv).csv
+    - GP Prescribing - February 2017 (csv).csv
+    - GP Prescribing - March 2017 (csv).csv
+    - GP Prescribing - April 2017 (csv).csv
+    - GP Prescribing - May 2017 (csv).csv
+    - GP Prescribing - June 2017 (csv).csv
+    - GP Prescribing - July 2017 (csv).csv
+    - GP Prescribing - August 2017 (csv).csv
+    - GP Prescribing - September 2017 (csv).csv
+    - GP Prescribing - October 2017 (csv).csv
+    files_2018__READY:
+    - gp-prescribing---january-2018.csv
+    - gp-prescribing---february-2018.csv
+    files_2018:
+    - gp-prescribing---march-2018.csv
+    files_2018__PIPE:
+    - gp-prescribing---april-2018.csv
+    - gp-prescribing---may-2018.csv
+    - gp-prescribing---june-2018.csv
+    - gp-prescribing---july-2018.csv
+    - gp-prescribing---august-2018.csv
+    files__2017:
+    - gp-prescribing---november-2017.csv
+    - gp-prescribing---december-2017.csv
+    route: universe
+  tables:
+    dir: prescribing/
+    files:
+    - table--D_AMP_NM.csv
+    - table--D_BNF.csv
+    - table--D_COST.csv
+    - table--D_PRACTICE.csv
+    - table--D_TIME.csv
+    - table--D_VMP_NM.csv
+    - table--D_VTM_NM.csv
+    route: stage
+target:
+  dir: prescribing/
+  file: prescribing__$NAME$__.csv
+  route: stage
+version: 1.0
