@@ -1,5 +1,7 @@
 # Norther Ireland medical report
 
+![board1](./docu/_images/readme/qlik-sense-cloud__board-202.jpg)
+
 - [Norther Ireland medical report](#norther-ireland-medical-report)
   - [Description](#description)
   - [Motivation](#motivation)
@@ -265,6 +267,6 @@ For more details about using Qlik Sense Cloud see the directory:
 For more information see the directory: 
 `[ROOT_DIR]/boards/analysis-result.md`
 
-![importeddata](./docu/_images/readme/qlik-sense-cloud__008-connect-data.jpg)
-![board1](./docu/_images/readme/qlik-sense-cloud__101-board.jpg)
+![board1](./docu/_images/readme/qlik-sense-cloud__board-202.jpg)
 ![board2](./docu/_images/readme/qlik-sense-cloud__102-board.jpg)
+![importeddata](./docu/_images/readme/qlik-sense-cloud__008-connect-data.jpg)
