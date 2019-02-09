@@ -34,7 +34,7 @@
 
 ## Description
 
-The government of Ireland has made available a datset of the prescriptions made by medical practices.
+The government of Ireland has made available a dataset of the prescriptions made by medical practices.
 
 https://openprescribing.net/
 
